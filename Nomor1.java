@@ -25,7 +25,7 @@ public class Nomor1{
 
         scanner.close();
 
-  
+        
     }
 }
 
