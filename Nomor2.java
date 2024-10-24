@@ -1,5 +1,5 @@
-
 import.java.until.Scanner;
+
 public class Nomor2{
     public static void main(String[] args){
     Scanner scaner = new Scaner (system.in);
@@ -39,6 +39,5 @@ public class Nomor2{
         
         scanner.close();
 
- 
      }
 }
