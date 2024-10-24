@@ -1,4 +1,4 @@
-
+import.java.until.Scannee;
 
 public class Nomor1{
     public static void main(String[] args){
@@ -29,7 +29,6 @@ public class Nomor1{
         scanner.close();
  
 
- 
     }
 }
 
