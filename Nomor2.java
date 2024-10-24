@@ -4,7 +4,7 @@ public class Nomor2{
     public static void main(String[] args){
     Scanner scaner = new Scaner (system.in);
         
-    // Tarif per malam dan biaya pelayanan
+    // biaya per malam dan biaya pelayanan
         double[] tarip = {0, 50000, 40000, 30000};
         double[] biayaPelayananPersen = {0, 0.30, 0.20, 0.10}; 
         
@@ -21,7 +21,7 @@ public class Nomor2{
             System.out.print("lama menginap (malam): ");
             int lamaMenginap = scanner.nextInt();
             
-            // Hitung biaya menginap dan biaya pelayanan
+            // Hitung biaya menginap dan biaya pelayanann
             double biayaMenginap = lamaMenginap * tarip[kodeBungalow];
             double biayaPelayanan = biayaMenginap * biayaPelayananPersen[kodeBungalow];
             double totalBiaya = biayaMenginap + biayaPelayanan;
@@ -40,5 +40,5 @@ public class Nomor2{
         scanner.close();
 
  
-    }
+     }
 }
