@@ -4,7 +4,6 @@ public class Nomor2{
     public static void main(String[] args){
     Scanner scaner = new Scaner (system.in);
         
-    // biaya per malam dan biaya pelayanan
         double[] tarip = {0, 50000, 40000, 30000};
         double[] biayaPelayananPersen = {0, 0.30, 0.20, 0.10}; 
         
@@ -13,31 +12,34 @@ public class Nomor2{
         boolean inputLagi = true;
 
         while (inputLagi) {
-            // Input kode bungalow
+           
             System.out.print("Masukan kode bungalow [1/2/3]: ");
             int kodeBungalow = scanner.nextInt();
-            
-            // Input lama menginap
+          
             System.out.print("lama menginap (malam): ");
             int lamaMenginap = scanner.nextInt();
             
-            // Hitung biaya menginap dan biaya pelayanann
+          
             double biayaMenginap = lamaMenginap * tarip[kodeBungalow];
             double biayaPelayanan = biayaMenginap * biayaPelayananPersen[kodeBungalow];
             double totalBiaya = biayaMenginap + biayaPelayanan;
             
+           
             totalPendapatan += totalBiaya;
             jumlahTransaksi++;
             
+         
             System.out.print("Input lagi (Y/N)?: ");
             char input = scanner.next().charAt(0);
             inputLagi = (input == 'Y' || input == 'y');
         }
-        
+
+       
         System.out.println("Jumlah transaksi penyewaan bungalow = " + jumlahTransaksi);
         System.out.println("Total pendapatan = " + totalPendapatan);
         
-        scanner.close();
+        scanner.close();      
+    
 
      }
 }
