@@ -29,8 +29,8 @@ public class Nomor1{
         System.out.printf("Komisi yang didapatkan = %.1f\n", komisi);
         
         scanner.close();
- 
     }
+    
 }
 
       
