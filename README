@@ -1,0 +1,34 @@
+1.	PT. MURAH HATI memberi komisi kepada salesmannya berdasarkan ketentuan sebagai berikut:
+a.	Bila salesman berhasil menjual barang sampai dengan Rp 500.000, maka dia akan mendapat komisi sebesar 10%
+b.	Bila lebih dari Rp 500.000, untuk Rp 500.000 pertama, komisinya 10% sedangkan sisanya mendapat 15%.
+
+Buat algoritma dan program Java untuk menghitung komisi yang akan diterima oleh seorang salesman berdasarkan nilai penjualan barangnya.
+Output:
+Total penjualan salesman: 4000000
+Komisi yang didapatkan = 40000.0
+Total penjualan salesman : 700000
+Komisi yang didapatkan = 80000.0
+
+2. Suatu penginapan ingin mengkomputerisasikan sistem penyewaan bungalow. Total terdapat Ada 3 jenis bungalow yang disewakan, yaitu:
+Kode Bungalow	Tarip/malam (Rp)	Biaya Pelayanan
+1	            50.000	            30 %
+2	            40.000	            20 %
+3	            30.000	            10 %
+
+Rancang sebuah algoritma dan program Java untuk menghitung pendapatan dari sejumlah pelanggan yang menginap di Bungalow tersebut, berdasarkan kriteria berikut:
+-	Biaya menginap = Lama menginap x Tarip/malam
+-	Biaya pelayanan = Persentasi terhadap biaya menginap
+-	Total biaya = Biaya menginap + Biaya pelayanan
+
+Output program
+Masukan kode bungalow [1/2/3]:1
+lama menginap (malam): 2
+Input lagi (Y/N)?: Y 
+Masukan kode bungalow [1/2/3]:3
+lama menginap (malam): 1
+Input lagi (Y/N)?: Y 
+Masukan kode bungalow [1/2/3]:2
+lama menginap (malam): 2
+Input lagi (Y/N)?: N
+Jumlah transaksi penyewaan bungalow = 3
+Total pendapatan = 259000.0
